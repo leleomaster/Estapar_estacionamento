@@ -3,6 +3,8 @@
 # Tecnologia utilizadas
 
 # ASP.NET MVC
+# WEB API
+# ASYNC e AWAIT
 # C#
 # DAPPER
 # DDD

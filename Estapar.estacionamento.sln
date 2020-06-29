@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estapar.estacionamento.web", "Estapar.estacionamento.web\Estapar.estacionamento.web.csproj", "{C93BF109-FE3F-4805-A0CA-100E2769AA99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentation", "1-Apresentation", "{3B960F18-D786-4B0B-A78A-4BF6C3288CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{EC1802A0-3378-4DF3-BE1A-47D392433B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{A1DE88BA-756D-4EE4-B858-1A7259AEEDAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{6EEC19B8-6B39-47C7-8C98-C4F4BAA82775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estapar.estacionamento.application", "Estapar.estacionamento.application\Estapar.estacionamento.application.csproj", "{A52F7F20-A27D-4696-AA4D-FB2C4843DA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estapar.estacionamento.domain", "Estapar.estacionamento.domain\Estapar.estacionamento.domain.csproj", "{47E5F828-3003-417B-97CB-782C52D8133B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estapar.estacionamento.infrastructure.repository", "Estapar.estacionamento.infrastructure.repository\Estapar.estacionamento.infrastructure.repository.csproj", "{CAEE9757-F97D-461E-95B7-E41A60BC7B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estapar.estacionamento.API", "Estapar.estacionamento.API\Estapar.estacionamento.API.csproj", "{0DD5C9B2-3995-457E-B530-211368DCCFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estapar.estacionamento.Infrastracture.IoC", "Estapar.estacionamento.Infrastracture.IoC\Estapar.estacionamento.Infrastracture.IoC.csproj", "{29280609-C36D-4A04-B2ED-BBB024B23A8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Database", "5-Database", "{4FF7F8B5-D4FD-4060-9E7C-49DAA94D42E1}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\Estapar_estacionamento.mdf = C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\Estapar_estacionamento.mdf
+		C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\Estapar_estacionamento_log.ldf = C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\Estapar_estacionamento_log.ldf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93BF109-FE3F-4805-A0CA-100E2769AA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93BF109-FE3F-4805-A0CA-100E2769AA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93BF109-FE3F-4805-A0CA-100E2769AA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93BF109-FE3F-4805-A0CA-100E2769AA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52F7F20-A27D-4696-AA4D-FB2C4843DA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52F7F20-A27D-4696-AA4D-FB2C4843DA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52F7F20-A27D-4696-AA4D-FB2C4843DA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52F7F20-A27D-4696-AA4D-FB2C4843DA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E5F828-3003-417B-97CB-782C52D8133B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E5F828-3003-417B-97CB-782C52D8133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E5F828-3003-417B-97CB-782C52D8133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E5F828-3003-417B-97CB-782C52D8133B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEE9757-F97D-461E-95B7-E41A60BC7B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEE9757-F97D-461E-95B7-E41A60BC7B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEE9757-F97D-461E-95B7-E41A60BC7B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEE9757-F97D-461E-95B7-E41A60BC7B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD5C9B2-3995-457E-B530-211368DCCFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD5C9B2-3995-457E-B530-211368DCCFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD5C9B2-3995-457E-B530-211368DCCFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD5C9B2-3995-457E-B530-211368DCCFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29280609-C36D-4A04-B2ED-BBB024B23A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29280609-C36D-4A04-B2ED-BBB024B23A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29280609-C36D-4A04-B2ED-BBB024B23A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29280609-C36D-4A04-B2ED-BBB024B23A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C93BF109-FE3F-4805-A0CA-100E2769AA99} = {3B960F18-D786-4B0B-A78A-4BF6C3288CFE}
+		{A52F7F20-A27D-4696-AA4D-FB2C4843DA11} = {EC1802A0-3378-4DF3-BE1A-47D392433B2A}
+		{47E5F828-3003-417B-97CB-782C52D8133B} = {A1DE88BA-756D-4EE4-B858-1A7259AEEDAE}
+		{CAEE9757-F97D-461E-95B7-E41A60BC7B07} = {6EEC19B8-6B39-47C7-8C98-C4F4BAA82775}
+		{0DD5C9B2-3995-457E-B530-211368DCCFFD} = {3B960F18-D786-4B0B-A78A-4BF6C3288CFE}
+		{29280609-C36D-4A04-B2ED-BBB024B23A8B} = {6EEC19B8-6B39-47C7-8C98-C4F4BAA82775}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC12BCD7-285B-4D67-9B86-057BCC338C1A}
+	EndGlobalSection
+EndGlobal

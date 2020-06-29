@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Estapar.estacionamento.web.Models.ManobrarCarroModelView>
+
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2 class="text-center">Lista de manobras</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            Nome
+        </th>
+        <th>
+            Data de nascimento
+        </th>
+        <th>
+            CPF
+        </th>
+        <th>
+            Marca
+        </th>
+        <th>
+            Modelo
+        </th>
+        <th>
+            Placa
+        </th>
+        <th>
+            Data da manobra
+        </th>
+        <th>
+            Ações
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Pessoa.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pessoa.DataNascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pessoa.Cpf)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ModeloCarro.MarcaCarro.Nome)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ModeloCarro.Nome)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+
+
+            <td>
+                @Html.ActionLink("Editar", "Editar", new { id = item.Id }, new { @class = "btn btn-warning" }) |
+                @Html.ActionLink("Detalhar", "Detalhar", new { id = item.Id }, new { @class = "btn btn-info" }) |
+                @Html.ActionLink("Deletar", "Deletar", new { id = item.Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<hr />
+<p>
+    @Html.ActionLink("Cadastrar manobra", "Cadastrar", "ManobrarCarro", new { @class = "btn btn-info" })
+</p>

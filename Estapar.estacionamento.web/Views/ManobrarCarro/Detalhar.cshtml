@@ -1,0 +1,69 @@
+﻿@model Estapar.estacionamento.web.Models.ManobrarCarroModelView
+
+@{
+    ViewBag.Title = "Detalhar";
+}
+
+<h2 class="text-center">Detalhes da manobra</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Pessoa.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pessoa.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pessoa.DataNascimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pessoa.DataNascimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModeloCarro.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModeloCarro.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModeloCarro.MarcaCarro.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModeloCarro.MarcaCarro.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Placa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+
+    </dl>
+</div>
+
+<div class="form-group">
+    <div class="col-md-offset-2">
+        @Html.ActionLink("Editar", "Editar", new { id = Model.Id }, new { @class = "btn btn-warning" }) | 
+        @Html.ActionLink("Volta para a lista de manobra", "Lista", "ManobrarCarro", new { @class = "btn btn-primary" })
+    </div>
+</div>
+

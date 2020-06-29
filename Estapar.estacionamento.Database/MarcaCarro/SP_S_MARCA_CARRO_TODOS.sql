@@ -1,0 +1,11 @@
+USE [Estapar_estacionamento]
+GO
+
+CREATE PROCEDURE SP_S_MARCA_CARRO_TODOS
+AS
+	SELECT 
+		mar.ID_MARCA_CARRO AS Id,
+		mar.NOME AS Nome
+	FROM 
+		[dbo].[MARCA_CARRO] AS mar
+GO
